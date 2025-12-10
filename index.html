@@ -7,7 +7,6 @@
     <meta name="author" content="Adriel Funini" />
     <meta name="keywords" content="café, cafeteria, coffee shop" />
     <title>Coffee</title>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="pages/index.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -143,7 +142,45 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__content">
+          <div class="footer__circle"></div>
+          <img
+            class="footer__logo"
+            src="/images/logo_coffeeshop_light.svg"
+            alt="Logotipo TripleTen"
+          />
+          <div class="footer__social">
+            <h2 class="footer__social-heading">Mídia social</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a
+                  class="footer__social-link footer__social-link_type_facebook"
+                  href="#"
+                  ><img
+                    class="footer__social-icon"
+                    src="/images/facebook_white.svg"
+                    alt="Ícone Facebook"
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__social-list-item">
+                <a
+                  class="footer__column-link footer__social-link footer__social-link_type_instagram"
+                  href="#"
+                >
+                  <img
+                    class="footer__social-icon"
+                    src="/images/instagram_white.svg"
+                    alt="Ícone Instagram"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2024 Adriel Funini</p>
+      </footer>
     </div>
   </body>
 </html>
