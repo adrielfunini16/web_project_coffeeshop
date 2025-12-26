@@ -1,5 +1,7 @@
 # Triple Espresso
 
+🔗 **Live Demo:** [Acessar o site](https://adrielfunini16.github.io/web_project_coffeeshop/)
+
 Coffee Shop – TripleTen Project
 
 Este projeto faz parte da Sprint de HTML e CSS Avançado da TripleTen. A proposta é recriar a página de uma cafeteria fictícia, seguindo com precisão o layout fornecido no brief. O foco principal é a organização dos blocos, o uso correto da metodologia BEM e a atenção aos detalhes visuais.
